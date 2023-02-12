@@ -1,28 +1,12 @@
 {
   "version": 1,
   "dependencies": {
-    "net7.0-windows7.0": {
-      "ClickLib": {
-        "type": "Direct",
-        "requested": "[1.2.0.1, )",
-        "resolved": "1.2.0.1",
-        "contentHash": "4/bQhZ4y/4MT7381g2UlhltLFme4uOxKNeaSLBR2k6JipVtoqc3cWxM42rSQXxbTC4c5HgWXPFf8nfNPGODyAA==",
-        "dependencies": {
-          "ILRepack": "2.0.18",
-          "Reloaded.Memory": "7.1.0"
-        }
-      },
+    "net6.0-windows7.0": {
       "DalamudPackager": {
         "type": "Direct",
         "requested": "[2.1.10, )",
         "resolved": "2.1.10",
         "contentHash": "S6NrvvOnLgT4GDdgwuKVJjbFo+8ZEj+JsEYk9ojjOR/MMfv1dIFpT8aRJQfI24rtDcw1uF+GnSSMN4WW1yt7fw=="
-      },
-      "ECommons": {
-        "type": "Direct",
-        "requested": "[2.0.0.4, )",
-        "resolved": "2.0.0.4",
-        "contentHash": "joGkq0Y+K9da2TD/8/felotoTuqaUPjyKFjr2aeod77e28YMEmFrwVH+r91cU9X8hs50LEEp4QTzUnIrMJgcNw=="
       },
       "NAudio": {
         "type": "Direct",
@@ -46,17 +30,6 @@
         "dependencies": {
           "NAudio.Core": "2.0.0"
         }
-      },
-      "PunishLib": {
-        "type": "Direct",
-        "requested": "[1.0.1.2, )",
-        "resolved": "1.0.1.2",
-        "contentHash": "DFI01CIl7kkqtNapvd+5HLHuNg0AjE+vAs3paaGuzi44p2Mzi1peHhl6tdTxufyst2810RVBktfIpyBbMP39zA=="
-      },
-      "ILRepack": {
-        "type": "Transitive",
-        "resolved": "2.0.18",
-        "contentHash": "sR5Aj3JLDbA8JwESfWYfigSz5k1oNSHPN434W1LX8sboWJYEOSQP/KkvZGmJKPgajzSUKkl2jDar3LPZiMFU4Q=="
       },
       "Microsoft.NETCore.Platforms": {
         "type": "Transitive",
@@ -119,11 +92,6 @@
           "NAudio.Core": "2.1.0"
         }
       },
-      "Reloaded.Memory": {
-        "type": "Transitive",
-        "resolved": "7.1.0",
-        "contentHash": "4Y5tCsRWdW/shj9W7RqJq37LStuW1VVtjxsBp4LKZilPcjudeQg9k+u+6fnDgacCEJiG3S2EtcaiNtVMTdaSnQ=="
-      },
       "System.Security.AccessControl": {
         "type": "Transitive",
         "resolved": "4.7.0",
@@ -137,6 +105,15 @@
         "type": "Transitive",
         "resolved": "4.7.0",
         "contentHash": "ojD0PX0XhneCsUbAZVKdb7h/70vyYMDYs85lwEI+LngEONe/17A0cFaRFqZU+sOEidcVswYWikYOQ9PPfjlbtQ=="
+      },
+      "clicklib": {
+        "type": "Project"
+      },
+      "ecommons": {
+        "type": "Project"
+      },
+      "punishlib": {
+        "type": "Project"
       }
     }
   }
